@@ -1,0 +1,87 @@
+# 🌾 SAFRA 2026/27 - .gitignore
+
+# Dados sensíveis
+safra_2026_projeto/
+*.jsonl
+*.log
+config_local.json
+.env
+.env.local
+
+# Backups
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Dados de teste
+test_data/
+*.csv~
+*.xlsx~
+
+# Cache
+.cache/
+*.cache
+
+# Excel/Office temporários
+~$*.xlsx
+~$*.xls
+
+# Sistema
+.AppleDouble
+.LSOverride
+._*
+
+# Excepções (manter estes arquivos!)
+!.gitkeep
+!safra_2026_projeto/.gitkeep
+!safra_2026_projeto/dados/.gitkeep
+!safra_2026_projeto/logs/.gitkeep
+!safra_2026_projeto/relatorios/.gitkeep
